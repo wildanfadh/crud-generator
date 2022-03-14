@@ -5,7 +5,6 @@ const app = express();
 const mongoose = require('mongoose');
 const DataModal = require('./models/Data')
 require('dotenv').config();
-const mongodb = require('mongodb');
 
 // const generator = require('express-crud-api-generator')
 const generator = require('./generator/index');

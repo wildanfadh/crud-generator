@@ -2,15 +2,13 @@ const express = require('express');
 
 const router = express.Router();
 
-// import all models
-// const models = require('../models');
-
 
 module.exports = (modal) => {
     router.get('/index', (req, res) => {
         modal.find()
             .sort({ createdAt: -1 })
             .then(data => res.json(data))
+            .catch(err => res.status(400).json('Error: ' + err));
     });
 
     router.get('/paginate/index', async (req, res) => {
