@@ -83,6 +83,43 @@ $ npm start
 # The server will initialize in the <http://localhost:5000>
 ```
 
+## Usage
+
+```bash
+# Get all data
+http://localhost:5000/data/index
+
+# Get item
+http://localhost:5000/data/:id
+
+# Get data with paginate
+http://localhost:5000/data/paginate/index?page=1&limit=10
+
+# Create item
+http://localhost:5000/data/create
+
+# Edit item
+http://localhost:5000/data/:id
+
+# Delete item
+http://localhost:5000/data/:id
+```
+
+## Add CRUD
+
+```bash
+# Initial your model
+const yourData = require('./models/yourData')
+
+# Generate route path
+generator(app, { path: '/data', modal: DataModal })
+generator(app, { path: '/yourPath', modal: yourData })
+generator(app, { path: '/antoherPath', modal: DataModal })
+
+# Run the project
+$ npm start
+```
+
 ## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
