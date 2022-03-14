@@ -128,7 +128,7 @@ $ npm start
 ## Custom
 
 ```bash
-# For customize thi generator you can edit file in
+# For customize this generator you can edit file in
 genarator/router.js
 ```
 
