@@ -60,7 +60,7 @@ This project for example crud API generator in Express js with Mongodb
 The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript](https://www.javascript.com/)
 - [MongoDB](https://www.mongodb.com/)
 
 ## :white_check_mark: Requirements
