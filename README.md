@@ -76,6 +76,9 @@ $ git clone https://github.com/wildanfadh/crud-generator
 # Access
 $ cd crud-generator
 
+# Edit env.example to .env then add your local or server database
+MONGOURL=mongodb://localhost:27017/yourDB
+
 # Install dependencies
 $ npm install
 
