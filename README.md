@@ -46,13 +46,14 @@
 
 ## :dart: About
 
-Describe your project
+This project for example crud API generator in Express js with Mongodb
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Auto Crud Data;\
+
+<!-- :heavy_check_mark: Feature 2;\
+:heavy_check_mark: Feature 3; -->
 
 ## :rocket: Technologies
 
@@ -60,6 +61,7 @@ The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [MongoDB](https://www.mongodb.com/)
 
 ## :white_check_mark: Requirements
 
@@ -118,6 +120,13 @@ generator(app, { path: '/antoherPath', modal: DataModal })
 
 # Run the project
 $ npm start
+```
+
+## Custom
+
+```bash
+# For customize thi generator you can edit file in
+genarator/router.js
 ```
 
 ## :memo: License
